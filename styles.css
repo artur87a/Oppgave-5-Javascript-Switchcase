@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+   
+}
+
+#imageSelect {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48%;
+    margin-top: 30px;
+    scale: 1.5;
+    border-style: dotted white 40px;
+    
+}
+
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    scale: 0.4;
+    transition-duration: 3s;
+
+   
+
+}
+.centered:hover{
+    scale: 0.6
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    border-bottom: dotted rgb(0, 68, 255);
+    
+}
+
+.rounded-image{
+    border-radius: 100px;
+}
+
